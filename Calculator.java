@@ -1,5 +1,3 @@
-package Calculator_;
-
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -280,7 +278,7 @@ public class Calculator {
 		btnDot.setBounds(75, 305, 60, 60);
 		frame.getContentPane().add(btnDot);
 		
-		JButton btnNeg = new JButton("±");
+		JButton btnNeg = new JButton("Â±");
 		btnNeg.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				double temp = Double.parseDouble(String.valueOf(textDisplay.getText()));
